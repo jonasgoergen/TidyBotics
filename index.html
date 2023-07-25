@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<title>Simple Landing Page</title>
-   <style>
+<html>
+<head>
+    <title>Simple Landing Page</title>
+    <style>
         body {
             font-family: "Gill Sans", sans-serif;
             text-align: center;
-            background-color: #333; /* Dark grey background color */
+            background-color: #f2f2f2; /* Light grey background color */
             color: #fff; /* White font color */
         }
 
@@ -17,11 +19,14 @@
             font-size: 24px;
             margin: 20px 0;
         }
-      .robot-img {
-            max-width: 300px;
+
+        .robot-img {
+            max-width: 500px; /* Increase the image size */
             height: auto;
-            margin-bottom: 20px;
+            margin: 20px auto; /* Center the image horizontally and add vertical margin */
+            display: block; /* Make the image a block element */
         }
+
         a {
             font-size: 28px;
             color: #fff; /* White font color for the link */
@@ -32,8 +37,9 @@
     <h1>Thank you for clicking on the Link!</h1>
     <p>The ad you clicked on was part of a research project where we measured the attractiveness of different ads across campaigns.<br/>As you seem interested in robot vacuums, here is a link with an independent review of different models on the market. Feel free to inform yourself there:</p>
     <a href="https://www.consumerreports.org/appliances/vacuum-cleaners/best-robotic-vacuums-of-the-year-a7149523687/">Click here to see review</a>
-   <br/><img class="robot-img" src="robot_vacuum.jpg" alt="Robot Vacuum">
+  <br> <!-- Add a line break to place the image on the next line -->
     <p>
-  
+        <a href="https://www.example.com">Click here to visit the other website</a>
+    </p>
 </body>
 </html>
